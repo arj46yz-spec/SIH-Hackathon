@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillTrack — Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<header class="navbar">
+    <div class="brand">
+        <div class="brand-icon">S</div>
+        <span>SkillTrack</span>
+    </div>
+
+    <nav class="nav-links">
+        <a href="dashboard.html" class="active">Dashboard</a>
+        <a href="skillgaps.html">Skill Gaps</a>
+        <a href="Employement.html">Employment</a>
+    </nav>
+
+    <div class="user">
+        <span>Skill Tracker</span>
+        <div class="user-avatar">A</div>
+        
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="page-heading">
+        <div>
+            <h1>Skilling Outcome Overview</h1>
+            <p>Track what happens to trainees after skill-development programs.</p>
+        </div>
+
+        <div class="live-pill">
+            <span class="dot"></span>
+            Data updated today
+        </div>
+    </section>
+
+    <section class="stats-grid">
+
+        <div class="stat-card">
+            <p class="label">TOTAL TRAINEES</p>
+            <h2>2,450</h2>
+            <span class="blue-tag">Registered</span>
+        </div>
+
+        <div class="stat-card">
+            <p class="label">TRAINING COMPLETED</p>
+            <h2>1,820</h2>
+            <span class="purple-tag">74% of trainees</span>
+        </div>
+
+        <div class="stat-card">
+            <p class="label">EMPLOYMENT RATE</p>
+            <h2>68.4%</h2>
+            <span class="green-tag">↑ 5.8% this year</span>
+        </div>
+
+        <div class="stat-card">
+            <p class="label">12-MONTH RETENTION</p>
+            <h2>61.2%</h2>
+            <span class="orange-tag">Long-term outcome</span>
+        </div>
+
+    </section>
+
+    <section class="dashboard-grid">
+
+        <div class="panel large-panel">
+
+            <div class="panel-heading">
+                <div>
+                    <h3>Employment Outcomes</h3>
+                    <p>What happened after training completion</p>
+                </div>
+
+                <span class="period">2022 — 2026</span>
+            </div>
+
+            <div class="chart">
+                <div class="chart-bars">
+
+                    <div class="bar-column">
+                        <div class="bar" style="height:45%"></div>
+                        <span>2022</span>
+                    </div>
+
+                    <div class="bar-column">
+                        <div class="bar" style="height:55%"></div>
+                        <span>2023</span>
+                    </div>
+
+                    <div class="bar-column">
+                        <div class="bar" style="height:65%"></div>
+                        <span>2024</span>
+                    </div>
+
+                    <div class="bar-column">
+                        <div class="bar" style="height:76%"></div>
+                        <span>2025</span>
+                    </div>
+
+                    <div class="bar-column">
+                        <div class="bar highlight-bar" style="height:88%"></div>
+                        <span>2026</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="panel">
+
+            <div class="panel-heading">
+                <div>
+                    <h3>Top Skill Gaps</h3>
+                    <p>Skills employers currently need</p>
+                </div>
+
+                <a href="skill-gap.html" class="view-link">View all →</a>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Data Analytics</span>
+                    <strong>38%</strong>
+                </div>
+                <div class="progress">
+                    <div style="width:38%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Cloud Computing</span>
+                    <strong>34%</strong>
+                </div>
+                <div class="progress">
+                    <div style="width:34%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Digital Literacy</span>
+                    <strong>31%</strong>
+                </div>
+                <div class="progress">
+                    <div style="width:31%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Communication</span>
+                    <strong>27%</strong>
+                </div>
+                <div class="progress">
+                    <div style="width:27%"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bottom-grid">
+
+        <div class="panel">
+
+            <div class="panel-heading">
+                <div>
+                    <h3>Post-Training Status</h3>
+                    <p>Current status of trained candidates</p>
+                </div>
+
+                <a href="employment.html" class="view-link">Track outcomes →</a>
+            </div>
+
+            <div class="candidate">
+                <div class="candidate-avatar green">E</div>
+
+                <div class="candidate-info">
+                    <strong>Employed</strong>
+                    <span>1,245 candidates</span>
+                </div>
+
+                <span class="status employed">68.4%</span>
+            </div>
+
+            <div class="candidate">
+                <div class="candidate-avatar blue">A</div>
+
+                <div class="candidate-info">
+                    <strong>Apprenticeship</strong>
+                    <span>186 candidates</span>
+                </div>
+
+                <span class="status training">10.2%</span>
+            </div>
+
+            <div class="candidate">
+                <div class="candidate-avatar purple">S</div>
+
+                <div class="candidate-info">
+                    <strong>Self-employed</strong>
+                    <span>142 candidates</span>
+                </div>
+
+                <span class="status employed">7.8%</span>
+            </div>
+
+            <div class="candidate">
+                <div class="candidate-avatar orange">J</div>
+
+                <div class="candidate-info">
+                    <strong>Seeking Employment</strong>
+                    <span>247 candidates</span>
+                </div>
+
+                <span class="status seeking">13.6%</span>
+            </div>
+
+        </div>
+
+        <div class="panel">
+
+            <div class="panel-heading">
+                <div>
+                    <h3>Program Impact</h3>
+                    <p>Beyond training and certification</p>
+                </div>
+
+                <span class="green-text">+18.6%</span>
+            </div>
+
+            <div class="impact-number">
+                <span>Employment improvement</span>
+                <strong>18.6%</strong>
+            </div>
+
+            <div class="impact-progress">
+                <div></div>
+            </div>
+
+            <div class="impact-stats">
+                <div>
+                    <span>Before Training</span>
+                    <strong>50%</strong>
+                </div>
+
+                <div>
+                    <span>After Training</span>
+                    <strong>68.4%</strong>
+                </div>
+            </div>
+
+            <div class="impact-message">
+                <span>✓</span>
+                Outcome tracking shows whether training creates lasting employment.
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
